@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2874f0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+    margin-left: 12vw;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search img {
+    height: 35px;
+    width: 40px;
+    border-radius: 4px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.btn {
+    width: 70px;
+    margin-left: 80px;
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #1460dc;
+    background-color: white;
+    font-weight: 900;
+    font-size: medium;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+.search input {
+    width: 30vw;
+    height: 33px;
+    border-radius: 5px;
+    padding: 0 12px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 550;
+}
+
+nav ul {
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+    font-weight: 500;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.container2 {
+    min-height: calc(100vh - 48px - 24vh);
+}
+
+.container1 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 9vh;
+    margin: 25px 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.container1 ul li img:hover {
+    cursor: pointer;
+}
+
+.container1 ul li p:hover {
+    cursor: pointer;
+    color: #1460dc;
+}
+
+.container1 ul li img {
+    width: 65px;
+}
+.container2 .slider img{
+    margin: 5px 150px;
+    width: 80vw;
+    overflow: hidden;
+}
+.card{
+    max-width: 91vw;
+    margin:37px auto;
+    font-family:'DynaPuff', cursive;
+}
+.card h3{
+    margin: 5px 0;
+}
+.cards{
+    display: flex;
+    overflow: hidden;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
+.card-item:hover{
+    cursor: pointer;
+}
+.lines:hover{
+    cursor: pointer;
+    color: rgb(30, 165, 30);
+}
+.imgs{
+    width: 200px;
+    
+}
+.dec{
+    width: 100vw;
+}
+.dec:hover{
+    cursor: pointer;
+}
+
+footer {
+    height: 8vh;
+    background-color: #172337;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 3px;
+    margin-top: 4px;
+}
+
+li {
+    display: inline;
+    padding: 0 40px;
+}
+
+.lnk {
+    cursor: pointer;
+}
